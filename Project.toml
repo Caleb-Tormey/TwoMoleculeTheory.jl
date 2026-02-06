@@ -1,9 +1,19 @@
 name = "TwoMoleculeTheory"
 uuid = "a2385ab8-dab0-4a64-be17-012f75ffabe5"
-authors = ["Caleb-Tormey <caleb.tormey@gmail.com> and contributors"]
 version = "1.0.0-DEV"
+authors = ["Caleb-Tormey <caleb.tormey@gmail.com> and contributors"]
+
+[deps]
+FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [compat]
+FFTW = "1.10.0"
+LinearAlgebra = "1.12.0"
+StaticArrays = "1.9.16"
+Test = "1.11.0"
 julia = "1.6.7"
 
 [extras]
